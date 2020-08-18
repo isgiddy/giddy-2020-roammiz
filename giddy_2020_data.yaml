@@ -1,0 +1,51 @@
+sources:
+        
+    sg643_pressure_levels:
+      args:
+        urlpath: "data/sg643/sg643_linterp.nc"
+      description: "SG643 linearly interpolated"
+      driver: netcdf
+        
+    sg643_density_levels:
+      args:
+        urlpath: "data/sg643/sg643_grid_density_surfaces.nc"
+      description: "SG643 linearly interpolated on density surfaces"
+      driver: netcdf
+     
+    sea_ice:
+      args: 
+        concat_dim: 'time'
+        urlpath: "data/seaice/*.nc"
+      description: "Sea Ice Concentration"
+      driver: netcdf
+        
+    era5_heat:
+      args:
+        urlpath: "data/era5/era5_htflux.nc"
+      description: "Era5 heat flux subset (2018-2019)"
+      driver: netcdf
+        
+    era5_winds:
+      args:
+        urlpath: "data/era5/era5_winds.nc"
+      description: "Era5 winds subset (2018-2019)"
+      driver: netcdf        
+      
+    era5_fw:
+      args:
+        urlpath: "data/era5/sg643_fwf.nc"
+      description: "Era5 freshwater subset (2018-2019)"
+      driver: netcdf           
+        
+    sss:
+      args:
+        urlpath: "data/smos/*.nc"
+      description: "SMOS Sea Surface Salinity subset (2018-2019)"
+      driver: netcdf  
+        
+    chla:        
+      args:
+        urlpath: "data/chla/S3A_OL_2_WFR____20190107T090544_20190107T090844_20190107T105111_0179_040_064_3960_MAR_O_NR_002.nc"
+      description: "Copernicus OCLI 6/01/2019"
+      driver: netcdf          
+    
