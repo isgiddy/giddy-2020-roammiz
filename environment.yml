@@ -49,11 +49,11 @@ dependencies:
   - bottleneck=1.3.2=py37hf1fa96c_1
   - brotlipy=0.7.0=py37haf1e3a3_1000
   - bzip2=1.0.8=h1de35cc_0
-  - ca-certificates=2020.6.24=0
+  - ca-certificates=2020.6.20=hecda079_0
   - cachetools=4.1.0=py_1
   - cairo=1.14.12=hc4e6be7_4
   - cartopy=0.17.0=py37haea56ea_1
-  - certifi=2020.6.20=py37_0
+  - certifi=2020.6.20=py37hc8dfbb8_0
   - cffi=1.14.0=py37hb5b8e2f_0
   - cftime=1.1.2=py37h776bbcc_0
   - chardet=3.0.4=py37_1003
@@ -65,7 +65,7 @@ dependencies:
   - cmocean=2.0=py_1
   - colorama=0.4.3=py_0
   - colorspacious=1.1.2=pyh24bf2e0_0
-  - conda=4.8.4=py37_0
+  - conda=4.8.4=py37hc8dfbb8_2
   - conda-build=3.18.9=py37_3
   - conda-env=2.6.0=1
   - conda-package-handling=1.6.1=py37h1de35cc_0
@@ -133,6 +133,7 @@ dependencies:
   - importlib-metadata=1.7.0=py37_0
   - importlib_metadata=1.7.0=0
   - intake=0.5.5=py_0
+  - intake-xarray=0.3.1=py_0
   - intel-openmp=2019.4=233
   - intervaltree=3.0.2=py_1
   - ipykernel=5.3.2=py37h5ca1d4c_0
@@ -238,7 +239,7 @@ dependencies:
   - olefile=0.46=py37_0
   - openjpeg=2.3.0=hb95cd4c_1
   - openpyxl=3.0.4=py_0
-  - openssl=1.1.1g=h1de35cc_0
+  - openssl=1.1.1g=haf1e3a3_1
   - owslib=0.18.0=py_0
   - packaging=20.4=py_0
   - pandas=1.0.5=py37h959d312_0
