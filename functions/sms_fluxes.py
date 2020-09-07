@@ -303,7 +303,6 @@ def calc_ebf(buoyancy_gradient_mld,wind_dir,glider_dir,tau_x,tau_y,f,alpha,cp=40
     """
 
     rotated_wind_component,angle=rotate_winds(wind_dir,glider_dir,tau_x,tau_y)
-    print(angle)
     ebf=(-(buoyancy_gradient_mld)*np.array((rotated_wind_component/f))*(cp/(alpha*g)))
 
     return ebf, rotated_wind_component,angle
