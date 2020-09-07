@@ -14,5 +14,5 @@ The relevant folder is giddy_2020
   
 Load this data into the same folder as the repository, ensuring that the folder is named 'data'  
 
-A python environment is provided which has all the relevant packages to enable you to run the code smoothly  
+A python environment is provided which has all the relevant packages to enable you to run the code smoothly. Note this environment might only be valid for OS systems - need to check this.   
 
