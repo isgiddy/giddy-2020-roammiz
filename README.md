@@ -1,6 +1,8 @@
 # giddy-2020-roammiz
 Analysis followed by Giddy et al 2020 - stirring by sea ice-melt water enhances submesoscale fronts in the Southern Ocean
 
+[![DOI](https://zenodo.org/badge/288300583.svg)](https://zenodo.org/badge/latestdoi/288300583)
+
 At the moment, to implement the code here you need to clone this repository to your local machine.  
 'git clone https://github.com/isgiddy/giddy-2020-roammiz.git'  
 
