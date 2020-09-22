@@ -17,5 +17,5 @@ Load this data into the same folder as the repository, ensuring that the folder 
 A python environment is provided which has all the relevant packages to enable you to run the code smoothly. Note this environment has only been tested in OS systems  
    
 Disclaimer: Although I have tried to make the code as generic as possible,
-but is specific to the analysis followed by Giddy-etal-2020. For other implementations you will probably need to make a number of modifications.  
+it is specific to the analysis followed by Giddy-etal-2020. For other implementations you will probably need to make a number of modifications.  
 I hope the annotations within the code assist with this. 
