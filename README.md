@@ -16,7 +16,8 @@ Load this data into the same folder as the repository, ensuring that the folder 
 
 A python environment is provided which has all the relevant packages to enable you to run the code smoothly. Note this environment has only been tested in OS systems  
 
-Not all the code is written by myself. For reading Seaglider data, I have relied heavily on [GliderTools](https://pypi.org/project/glidertools/), spectra calculations are computed using code provided by J. DeShayes.  
+Not all the code is written by myself. Thanks go out specifically to the Xarray community for making life so much easier (and apologies for not using Xarray optimally) and generally to the open-code community.  
+For reading Seaglider data, I have relied heavily on [GliderTools](https://pypi.org/project/glidertools/), spectra calculations are computed using code provided by J. DeShayes.  
    
 Disclaimer: Although I have tried to make the code as generic as possible,
 it is specific to the analysis followed by Giddy-etal-2020. For other implementations you will probably need to make a number of modifications.  
