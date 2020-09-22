@@ -15,6 +15,8 @@ The relevant folder is giddy_2020
 Load this data into the same folder as the repository, ensuring that the folder is named 'data'  
 
 A python environment is provided which has all the relevant packages to enable you to run the code smoothly. Note this environment has only been tested in OS systems  
+
+Not all the code is written by myself. I have relied heavily on the [GliderTools](https://pypi.org/project/glidertools/), spectra calculations are computed using code provided by J. DeShayes.  
    
 Disclaimer: Although I have tried to make the code as generic as possible,
 it is specific to the analysis followed by Giddy-etal-2020. For other implementations you will probably need to make a number of modifications.  
