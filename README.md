@@ -5,7 +5,7 @@ At the moment, to implement the code here you need to clone this repository to y
 'git clone https://github.com/isgiddy/giddy-2020-roammiz.git'  
 
 The data can be accessed via ftp. In your terminal,  
-ftp roammiz.com  
+ftp ssh.roammiz.com  
 Name: anonymous  
 
 No password is required.
